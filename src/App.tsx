@@ -51,10 +51,10 @@ function App() {
       <Projects />
 
       {/* ─── Contact Section ─── */}
-      <Contact />
+      {/* <Contact /> */}
 
       {/* ─── Footer ─── */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
