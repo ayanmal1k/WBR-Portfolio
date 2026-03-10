@@ -122,7 +122,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
       >
-        <span className="role-highlight">Full Stack Developer</span>
+        <span className="role-highlight">Full Stack & Web3 Blockchain Developer</span>
         <span className="role-separator">—</span>
         <span>crafting aesthetic &amp; functional digital experiences.</span>
       </motion.p>
