@@ -7,7 +7,7 @@ const fadeUp = (delay: number) => ({
     opacity: 1,
     y: 0,
     filter: 'blur(0px)',
-    transition: { duration: 0.8, delay, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.8, delay, ease: [0.22, 1, 0.36, 1] as const },
   },
 });
 
@@ -17,7 +17,7 @@ const letterPull = {
     opacity: 1,
     y: 0,
     transition: {
-      type: 'spring',
+      type: 'spring' as const,
       damping: 18,
       stiffness: 90,
     },
@@ -39,7 +39,7 @@ const lineGrow = (delay: number) => ({
   visible: {
     scaleY: 1,
     opacity: 1,
-    transition: { duration: 1.2, delay, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 1.2, delay, ease: [0.22, 1, 0.36, 1] as const },
   },
 });
 
@@ -49,7 +49,7 @@ const scaleIn = (delay: number) => ({
     opacity: 1,
     scale: 1,
     filter: 'blur(0px)',
-    transition: { duration: 1.0, delay, ease: [0.16, 1, 0.3, 1] },
+    transition: { duration: 1.0, delay, ease: [0.16, 1, 0.3, 1] as const },
   },
 });
 

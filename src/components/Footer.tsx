@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaLinkedinIn, FaGithub, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
+import { FaLinkedinIn, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
 import { TbBrandFiverr } from 'react-icons/tb';
 import { MdOutlineEmail } from 'react-icons/md';
 
