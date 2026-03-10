@@ -69,7 +69,7 @@ function SplitText({
       variants={staggerContainer(delay)}
       initial="hidden"
       animate="visible"
-      style={{ display: 'inline-flex' }}
+      style={{ display: 'inline-flex', flexWrap: 'wrap', justifyContent: 'center', maxWidth: '100%' }}
     >
       {text.split('').map((char, i) => (
         <motion.span
