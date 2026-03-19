@@ -15,21 +15,7 @@
     ],
     "image": "/Potfolio/Xora/c8b66ec1-0bd5-449f-acfd-d28cf0b558e2-0.jpg"
   },
-  {
-    "name": "GemChain",
-    "description": "A modern web application built for the GemChain project, featuring responsive UI and robust functionality.",
-    "tech": [
-      "React",
-      "Tailwind",
-      "Node.js"
-    ],
-    "images": [
-      "/Potfolio/GemChain/e89b4b8a-1.png",
-      "/Potfolio/GemChain/e89b4b8a-2.png",
-      "/Potfolio/GemChain/screencapture-gemchain-app-2026-02-26-13_37_16.png"
-    ],
-    "image": "/Potfolio/GemChain/e89b4b8a-1.png"
-  },
+  
   {
     "name": "Alaw Monkey",
     "description": "A modern web application built for the Alaw Monkey project, featuring responsive UI and robust functionality.",
